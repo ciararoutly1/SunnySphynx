@@ -1,0 +1,115 @@
+/* CSS layout */
+
+/* Author: Ciara Routly
+Date: February 9, 2017 */
+
+body {
+	/* set background color of all pages here */
+	background-color: oldlace;
+	font-size: 100%;
+	font-family: "couriernew";
+}
+
+h3 {
+	color: darkblue;
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+/* id attributes */
+#quote {
+
+	/* quote: home is where your cat is */
+	font-style: italic;
+	font-size: 2em;
+	text-shadow: 2px 2px #888888;
+}
+
+#indexContent img {
+	width:380px;height:400px;
+	/* round corners */
+	border-radius: 10px;
+} 
+
+#indexContent2 img {
+	width:380px;height:400px;
+	/* box shadow on fan art image */
+	box-shadow: 10px 10px 5px #888888;
+} 
+
+/* border image */
+#borderimg1 { 
+    border-width: 60px;
+    border-style: solid;
+    border-image: url(http://content.mycutegraphics.com/borders/simple-border.png) 25% round; 
+}
+
+
+#hours {
+	color:teal;
+	font-weight: normal;
+}
+
+/* elements we will apply gradient to */
+#grad {
+
+	/* cases to support different browsers */
+	background: oldlace; 
+  	background: -webkit-linear-gradient(left, blue , green); 
+  	background: -o-linear-gradient(right, blue, green); 
+  	background: -moz-linear-gradient(right, blue, green); 
+  	background: linear-gradient(to right, blue , green); 
+
+}
+
+/* class attribute title example */
+.title {
+	font-weight: bold;
+}
+
+.avail {
+	/* 2d transform */
+	transform: translate(15px, 15px);
+}
+
+.video {
+	/* video on home page */
+	text-align:center;
+	color: teal;
+	font-weight: bold;
+}
+
+.banner {
+	color: lightseagreen;
+	font-size: 2.3em;
+	font-style: normal;
+}
+
+.navigation {
+	background-color: gainsboro;
+	font-style: normal;
+}
+
+/* unvisted link */
+a:link {
+	color: black;
+	font-size: 1.0em;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* visited before link */
+a:visited {
+	color:darkblue;
+	font-weight: normal;
+}
+
+/* functionality over hover */
+a:hover {
+	color: purple;
+}
+
+
+dl {
+    list-style-type: square;
+}
